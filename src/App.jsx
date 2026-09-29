@@ -162,7 +162,7 @@ export default function App() {
               <ArrowLeft size={16} /> Back to Home
             </button>
           )}
-          <a className="pill dark" href="/Ansiya-K-H-CV.pdf" download>Download CV <Download size={16} /></a>
+          <a className="pill dark" href={`${import.meta.env.BASE_URL}Ansiya-K-H-CV.pdf`} download="Ansiya-K-H-CV.pdf">Download CV <Download size={16} /></a>
         </div>
       </header>
 

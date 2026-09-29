@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="docAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg4)"/>
+
+  <!-- Browser Window Frame -->
+  <g transform="translate(40, 30)">
+    <rect width="720" height="440" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" filter="drop-shadow(0 20px 30px rgba(0,0,0,0.6))"/>
+    
+    <!-- Top Bar -->
+    <rect width="720" height="36" rx="12" fill="#1e1b4b"/>
+    <rect y="24" width="720" height="12" fill="#1e1b4b"/>
+    <circle cx="20" cy="18" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="18" r="5" fill="#f59e0b"/>
+    <circle cx="52" cy="18" r="5" fill="#10b981"/>
+    
+    <!-- URL Bar -->
+    <rect x="80" y="8" width="400" height="20" rx="6" fill="#0f172a"/>
+    <text x="96" y="22" fill="#818cf8" font-family="'Inter', sans-serif" font-size="11">https://documind.ai/analyzer</text>
+
+    <!-- App Header -->
+    <g transform="translate(0, 36)">
+      <rect width="720" height="48" fill="#1e1b4b"/>
+      <line x1="0" y1="48" x2="720" y2="48" stroke="#312e81" stroke-width="1"/>
+      <text x="24" y="30" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="800" font-size="16">DOCUMIND AI</text>
+      <rect x="580" y="12" width="116" height="26" rx="6" fill="url(#docAccent)"/>
+      <text x="638" y="29" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="700" font-size="10" text-anchor="middle">+ Upload Document</text>
+    </g>
+
+    <!-- Main Grid Content -->
+    <g transform="translate(24, 100)">
+      <!-- Left PDF Preview Box -->
+      <g transform="translate(0, 0)">
+        <rect width="320" height="316" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="16" y="28" fill="#94a3b8" font-family="'Inter', sans-serif" font-weight="700" font-size="11">DOCUMENT PREVIEW (PDF)</text>
+
+        <!-- Mock PDF Page -->
+        <rect x="24" y="44" width="272" height="250" rx="6" fill="#ffffff"/>
+        <!-- Document Title -->
+        <rect x="44" y="64" width="140" height="12" rx="3" fill="#1e1b4b"/>
+        <rect x="44" y="84" width="200" height="6" rx="2" fill="#94a3b8"/>
+        <rect x="44" y="96" width="232" height="6" rx="2" fill="#cbd5e1"/>
+        <rect x="44" y="108" width="210" height="6" rx="2" fill="#cbd5e1"/>
+        
+        <!-- Highlighted Key Insight Clause -->
+        <rect x="40" y="124" width="240" height="40" rx="4" fill="#e0e7ff" stroke="#6366f1" stroke-dasharray="3 3"/>
+        <rect x="48" y="134" width="180" height="6" rx="2" fill="#4338ca"/>
+        <rect x="48" y="148" width="140" height="6" rx="2" fill="#4338ca"/>
+
+        <rect x="44" y="176" width="220" height="6" rx="2" fill="#cbd5e1"/>
+        <rect x="44" y="188" width="190" height="6" rx="2" fill="#cbd5e1"/>
+        <rect x="44" y="200" width="232" height="6" rx="2" fill="#cbd5e1"/>
+      </g>
+
+      <!-- Right AI Intelligence Analysis Box -->
+      <g transform="translate(344, 0)">
+        <rect width="328" height="316" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="16" y="28" fill="#818cf8" font-family="'Inter', sans-serif" font-weight="700" font-size="11">AI SUMMARY &amp; EXTRACTION</text>
+
+        <!-- Summary Card 1 -->
+        <rect x="16" y="44" width="296" height="70" rx="6" fill="#0f172a" stroke="#312e81" stroke-width="1"/>
+        <text x="28" y="64" fill="#a5b4fc" font-family="'Inter', sans-serif" font-weight="700" font-size="10">KEY CLAUSE SUMMARY</text>
+        <text x="28" y="84" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="11">Contract validity terminates automatically after 24 months.</text>
+
+        <!-- Entity Extraction Table -->
+        <rect x="16" y="126" width="296" height="174" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="28" y="146" fill="#94a3b8" font-family="'Inter', sans-serif" font-weight="700" font-size="10">EXTRACTED ENTITIES</text>
+
+        <text x="28" y="172" fill="#64748b" font-family="'Inter', sans-serif" font-size="10">Entity</text>
+        <text x="160" y="172" fill="#64748b" font-family="'Inter', sans-serif" font-size="10">Confidence</text>
+
+        <line x1="28" y1="180" x2="296" y2="180" stroke="#334155" stroke-width="0.5"/>
+
+        <text x="28" y="200" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11">Party A: Cicada Corp</text>
+        <rect x="160" y="190" width="50" height="14" rx="7" fill="#166534"/>
+        <text x="185" y="201" fill="#4ade80" font-family="'Inter', sans-serif" font-weight="700" font-size="9" text-anchor="middle">99.4%</text>
+
+        <text x="28" y="228" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11">Effective Date: 2026-07-01</text>
+        <rect x="160" y="218" width="50" height="14" rx="7" fill="#166534"/>
+        <text x="185" y="229" fill="#4ade80" font-family="'Inter', sans-serif" font-weight="700" font-size="9" text-anchor="middle">98.8%</text>
+
+        <text x="28" y="256" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11">Jurisdiction: Kerala, IN</text>
+        <rect x="160" y="246" width="50" height="14" rx="7" fill="#166534"/>
+        <text x="185" y="257" fill="#4ade80" font-family="'Inter', sans-serif" font-weight="700" font-size="9" text-anchor="middle">96.2%</text>
+      </g>
+    </g>
+  </g>
+</svg>

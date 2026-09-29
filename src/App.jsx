@@ -195,8 +195,12 @@ export default function App() {
           <section id="about" className="section">
             <Fade className="about-grid">
               <div className="portrait">
-                <img src="/siya.png" alt="Ansiya K H" className="portrait-img" />
-                <span>Passionate about building real-world solutions.</span>
+          <img
+            src={`${import.meta.env.BASE_URL}siya.png`}
+            alt="Ansiya K H"
+            className="portrait-img"
+          />               
+           <span>Passionate about building real-world solutions.</span>
               </div>
               <div>
                 <span className="eyebrow">ABOUT ME</span>

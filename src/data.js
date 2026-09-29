@@ -6,7 +6,7 @@ export const projects = [
     title: 'Cicada Rise',
     desc: 'Full-stack e-commerce platform with product catalog, cart, wishlist, and custom ERP dashboard.',
     longDesc: 'Cicada Rise is a robust, production-ready full-stack e-commerce platform engineered with Python, Django, and PostgreSQL. It features product catalog management, real-time search and filtering, user authentication, customer cart & wishlist, and an integrated ERP admin portal for inventory control and order processing.',
-    image: '/projects/cicada-rise.png',
+    image: `${import.meta.env.BASE_URL}projects/cicada-rise.png`,
     tags: ['Python', 'Django', 'PostgreSQL', 'JavaScript', 'REST APIs'],
     features: [
       'Custom ERP admin portal for inventory, product variants & order management',
@@ -23,7 +23,7 @@ export const projects = [
     title: 'Hotel Management System',
     desc: 'Database-backed hotel application with room booking, guest tracking, and admin billing controls.',
     longDesc: 'A comprehensive database-driven hotel management system designed to streamline room reservations, guest check-in/check-out, staff allocation, and billing. Built with Django and PostgreSQL, it provides front-desk operators and management with real-time room availability metrics.',
-    image: '/projects/hotel-management.png',
+    image: `${import.meta.env.BASE_URL}projects/hotel-management.png`,
     tags: ['Python', 'Django', 'HTML5', 'CSS3', 'PostgreSQL'],
     features: [
       'Interactive room availability calendar and real-time status tracking',
@@ -40,7 +40,7 @@ export const projects = [
     title: 'DocuMind',
     desc: 'AI-assisted document intelligence and analytics portal with automated clause extraction.',
     longDesc: 'DocuMind is an intelligent document analysis and extraction interface built with React, Python, and REST APIs. It parses uploaded PDF/text documents, extracts key contractual clauses and entities using natural language processing patterns, and displays interactive summaries.',
-    image: '/projects/documind.png',
+    image: `${import.meta.env.BASE_URL}projects/documind.png`,
     tags: ['React', 'Python', 'Django REST Framework', 'PostgreSQL', 'JavaScript'],
     features: [
       'Automated document text parsing and clause extraction',

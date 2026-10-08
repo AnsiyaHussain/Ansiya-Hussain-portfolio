@@ -1,6 +1,22 @@
-export const skills = ['Python', 'Django', 'Django REST Framework', 'Flask', 'PostgreSQL', 'SQL', 'HTML5', 'CSS3', 'JavaScript', 'Angular', 'Git', 'Docker', 'REST APIs'];
+export const skills = ['Python', 'Django', 'Django REST Framework', 'Flask', 'PostgreSQL', 'SQL', 'HTML5', 'CSS3', 'JavaScript', 'WordPress', 'PHP', 'Angular', 'Git', 'Docker', 'REST APIs'];
 
 export const projects = [
+  {
+    id: 'linguaflow',
+    title: 'LinguaFlow — Multilingual Voice Platform',
+    desc: 'Voice-first multilingual translation & pronunciation platform with real-time speech synthesis & interactive practice.',
+    longDesc: 'LinguaFlow is a voice-first multilingual communication platform designed to make translation and language practice simple and interactive. Users can speak or type in one language, instantly translate their message into another language, listen to the translation with target-language pronunciation, and practice speaking through interactive pronunciation exercises. Built with WordPress, PHP, JavaScript, REST APIs, Web Speech API, MediaRecorder, and PWA technologies. The platform supports multiple languages including English, French, Spanish, German, Italian, Portuguese, Arabic (with RTL support), Hindi, Kannada, and Malayalam. It separates speech recognition, translation, and target-language speech synthesis to deliver a natural multilingual experience.',
+    image: `${import.meta.env.BASE_URL}projects/linguaflow.png`,
+    tags: ['WordPress', 'PHP', 'JavaScript', 'REST APIs', 'Web Speech API', 'PWA'],
+    features: [
+      'Voice-first speech recognition and target-language speech synthesis',
+      'Multilingual text & voice translation across 10+ languages with full RTL support for Arabic',
+      'Interactive pronunciation practice exercises with target-language speech feedback',
+      'Mobile-first, app-like PWA interface with saved translations notebook and learning workflows'
+    ],
+    github: 'https://github.com/AnsiyaHussain/LinguaFlow',
+    demo: null
+  },
   {
     id: 'cicada-rise',
     title: 'Cicada Rise',

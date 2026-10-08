@@ -84,6 +84,16 @@ export const techSvgStrings = {
   RESTAPIs: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <rect width="90" height="90" x="5" y="5" rx="18" fill="#0284C7"/>
     <text x="50" y="58" fill="#FFFFFF" font-family="'Inter', sans-serif" font-weight="900" font-size="28" text-anchor="middle">REST</text>
+  </svg>`,
+
+  WordPress: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="44" fill="#21759B"/>
+    <path fill="#FFFFFF" d="M50 11C28.5 11 11 28.5 11 50c0 17 9.7 31.7 23.9 38.9L16.2 38.6c1.8-.1 3.5.1 4.9.1 2.4 0 6.1-.3 6.1-.3 1.2-.1 1.4 1.7.1 1.8 0 0-1.3.1-2.7.2l17.4 51.8 10.4-31.2-7.4-20.6c-1.3-.1-2.5-.2-2.5-.2-1.2-.1-1.1-1.9.1-1.8 0 0 3.7.3 6 .3 2.4 0 6.1-.3 6.1-.3 1.2-.1 1.4 1.7.1 1.8 0 0-1.3.1-2.7.2l17.2 51.1 4.7-15.8c2.2-7 3.9-12.1 3.9-16.5 0-5.8-2.1-9.9-4-13.1-2.5-4.1-4.9-7.6-4.9-11.7 0-4.6 3.5-8.9 8.5-8.9.3 0 .7 0 1 .1C70.3 16.7 60.8 11 50 11z"/>
+  </svg>`,
+
+  PHP: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="90" height="90" x="5" y="5" rx="18" fill="#777BB4"/>
+    <text x="50" y="60" fill="#FFFFFF" font-family="'Inter', sans-serif" font-weight="900" font-size="34" text-anchor="middle">PHP</text>
   </svg>`
 };
 
